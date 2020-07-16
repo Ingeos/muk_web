@@ -29,7 +29,7 @@ from odoo import api, models, fields
 
 _logger = logging.getLogger(__name__)
 
-REFRESH_BEAT = 55
+REFRESH_BEAT = 1
 
 class ServerActions(models.Model):
     
